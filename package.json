@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch scss:public/css"
+    "sass": "sass --watch scss:public/css --style compressed"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,5 @@
   "description": "",
   "dependencies": {
     "sass": "^1.77.8"
-  }
+  } 
 }

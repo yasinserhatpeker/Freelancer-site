@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+
+</head>
+<body>
+    <!--header-->
+    <header id="header__inner">
+      <div class="container">
+          <nav class="main-nav">
+            <img src="img/logo.png" alt="" class="main-nav__logo">
+            <ul class="main-nav__items">
+                
+               <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+               <li> <a href="projects.html">Projects</a></li>
+              
+
+
+            </ul>
+          </nav>
+          
+        
+      </div>
+
+    </header>
+<!--section a-->
+<section id="about-a" class="text-center py-2">
+<div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="border-bottom"></div>
+ 
+    <div class="info">
+        <img src="img/about.jpeg" alt="" class="info__image">
+        <div class="info__bio">
+            <h3>Yasin Serhat Peker</h3>
+            <p class="p1"> Hello! I'm Yasin, a creative web designer and a graduate of Mersin University,Department of Computer Engineering. I focus on crafting user-friendly, aesthetic, and effective websites. My goal is to provide visual and functional solutions that make your brand stand out in the digital world. </p>
+
+      <p class="p2">    My journey into web design began in 2020, and since then, I have been passionately working in this field. I specialize in languages such as HTML, CSS, JavaScript, Python, and ASP.NET, and I also have expertise in databases. I've worked with clients from various industries, developing tailored solutions that meet their specific needs.</p>
+            
+        </div>
+    </div>
+</div>
+</section>
+
+<!--section b-->
+<section id="about-b" class="bg-dark py-2">
+   <div class="container">
+    <h2 class="section-title">What I Know...</h2>
+    <div class="border-bottom"></div>
+    <div id="progress-bars">
+    <h4>Web Development</h4>
+    <div class="progress">
+        <div style="width:100%"></div>
+    </div>
+    <div id="progress-bars">
+        <h4>Mobile App Development</h4>
+        <div class="progress">
+            <div style="width:80%"></div>
+        </div>
+        <div id="progress-bars">
+            <h4>Data Science</h4>
+            <div class="progress">
+                <div style="width:70%"></div>
+        </div>
+        <div id="progress-bars">
+            <h4>Machine Learning</h4>
+            <div class="progress">
+                <div style="width:80%"></div>
+        </div>
+
+    </div>
+   </div>
+</section>
+
+<!--section c-->
+<section id="about-c" class="bg-light py-2">
+  <div class="container">
+    <div class="about-logos">
+      <img src="img/joomla.png" alt="">
+      <img src="img/woocommerce.png" alt="">
+      <img src="img/wordpress.png" alt="">
+      <img src="img/wix.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!--section d-->
+<section id="about-d" class="py-2">
+  <div class="container">
+    <h2 class="section-title">References</h2>
+    <div class="border-bottom"></div>
+    <p class="lead text-center">Here, you can find testimonials from clients and partners, reflecting the quality and professionalism of my work.</p>
+    <div class="references owl-carousel owl-theme">
+      <div>
+        <p>I am extremely satisfied with the web design service I received! Your team really understood my needs and delivered beyond my expectations. My website is both visually stunning and user-friendly.</p>
+        <ul>
+          <li><img src="img/user-1.jpeg" alt=""></li>
+          <p>Ahmet Demir</p>
+        </ul>
+      </div>
+      <div>
+        <p>Your web design is truly excellent! However, if you could improve the site’s loading speed a bit, it would be even better. Overall, I’m very pleased—thank you!</p>
+        <ul>
+          <li><img src="img/user-2.jpeg" alt=""></li>
+          <p>Yaren Yılmaz</p>
+        </ul>
+      </div>
+      <div>
+        <p>I was really impressed with your team’s talent in visual aesthetics. The color harmony, layout, and overall theme were exactly what I wanted. The mobile responsiveness is also perfect. Great job!</p>
+        <ul>
+          <li><img src="img/user-3.jpeg" alt=""></li>
+          <p>Kerem Türkoğlu</p>
+        </ul>
+      </div>
+      <div>
+        <p>Your web design service really met my expectations. A professional team and a high-quality outcome! I will definitely consider working with you again.</p>
+        <ul>
+          <li><img src="img/user-4.jpeg" alt=""></li>
+          <p>Ekrem Tunç</p>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+
+<footer id="main-footer">
+  <div class="footer-content container">
+     <p>Copyright &copy; 2024. All Rights Reserved.</p>
+  
+  <div class="social">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+
+  </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+</script>
+ 
+</body>
+</html>

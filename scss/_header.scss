@@ -55,6 +55,13 @@
 
          .typewrite {
             display: block;
-         }
+         } 
+    } 
+    &__inner {
+        background: $bg-image no-repeat 40% 20% / cover;
+        border-bottom: 3px solid $primary-color;
+         
+
+
     }
 }
